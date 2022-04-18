@@ -13,7 +13,7 @@ function setup() {
   createCanvas(1300, 400);
   engine = Engine.create();
   world = engine.world;
-  ground = new Ground(750, 375, 1500, 50);
+  ground = new Ground(751, 375, 1500, 50);
   box1 = new Box(400, 230, 50, 50);
   box2 = new Box(450, 230, 50, 50);
   box3 = new Box(500, 230, 50, 50);
